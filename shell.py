@@ -1,7 +1,7 @@
 import socket
 
 server = socket.socket()
-server.bind(('192.168.0.3', 8080))
+server.bind(('192.168.1.65', 8080))
 server.listen(1)
 
 while True:
