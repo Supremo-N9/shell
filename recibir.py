@@ -1,6 +1,6 @@
 import socket
 
-server_address = ('192.168.1.68', 5555)
+server_address = ('192.168.1.6', 5555)
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket.connect(server_address)
